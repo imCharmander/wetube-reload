@@ -7,7 +7,7 @@
     "url": "git+ssh://git@github.com/imCharmander/wetube-reload.git"
   },
   "scripts": {
-    "dev": "nodemon --exec babel-node index"
+    "dev": "nodemon --exec babel-node src/server"
   },
   "author": "sounchoi",
   "license": "MIT",
@@ -16,7 +16,10 @@
   },
   "homepage": "https://github.com/imCharmander/wetube-reload#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "mongoose": "^8.1.1",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.23.9",
